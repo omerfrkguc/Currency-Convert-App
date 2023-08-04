@@ -1,0 +1,53 @@
+#container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+#main{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 600px;
+    padding: 20px;
+    border-radius: 75px;
+    background-color: teal;
+
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrapper > h4{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#name{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    
+}
